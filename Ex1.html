@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<title>Rohit portfolios</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('profile_img.jpg');
+  min-height: 100%;
+}
+</style>
+<body style="background-color:floralwhite">
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Rohit Gaikwad</b></h1>
+    <p>Software Developer.</p>
+    <img src="profile_img.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="profile_img.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+        <a href="Rohit cv.rar" download class="download -btn">
+      <i class="fa fa-download">
+      </i> Download Resume
+    </a>
+    </button>
+  </header>
+
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>
+        My self Rohit Gaikwad .I am from Kopergoan I have complated in my bachalars degree in Computer Application
+        from k.j somaya collage kopergoan.i have complated courses in java Developer Mindscript technology in pune
+        i have best knowalage of html,css, javascript,boostrap,core java,adv java,jdbc,sql,spring,hibarnet,jsp servla,
+        oops,i am belong from small famalis,my stranth are i am hardworking and self movate person  and i have Strong
+        communcation skill,my short term goals in to get join in reputaded company and long term goal is to achive to good
+        possition liks yours whare i can build my carrer and helf the orgnization to my hobbies are writting and watching 
+        movie thats all about me.
+        
+    </p>
+    
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">c,cpp,java(core),adv.java,(jdbc,servlet jsp,swing)</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">web technology(html,css,boostrap)</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">scripting langauges (javascript)</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div><br>
+
+   
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">My Projects</h3>
+    <!--<img src="/w3images/avatar_smoke.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">-->
+    <p><span class="w3-large w3-text-black w3-margin-right">Elibrary Management Sysytem.</span> java.</p>
+    <p>In this project I have created an application for Elibrary(Admin). This
+        application contains four modules(Admin, User Report, Book Report, Issue Book Report,
+        Return Books) which describe all the functionality of Elibrary application</p><br>
+   
+   <!-- <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">-->
+    <p><span class="w3-large w3-text-black w3-margin-right">Book Shoope</span> java.</p>
+    <p>This web application provide online book store for the user in which user 
+        can easily browse & purchase the books. also user can create own account & place 
+        order online admin can add or remove the books from book store.
+        </p><br>
+    
+   
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16">My Qualification</h3>
+    <div class="w3-row-padding" style="margin:0 -35px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+            <table border="2px">
+                <tr>
+          <th>Degree</th>
+          <th>Bord/Univarcity</th>
+          <th>year</th>
+          <th>CGPA/Percentage</th>
+        </tr>
+        <tr>
+          <td>BCA</td>
+          <td>Savitribai phule pune univarcity</td>
+          <td>2022</td>
+          <td>8.11 CGPA</td>
+          </tr>
+          <tr>
+            <td>HSC</td>
+            <td>Maharashtra State Board</td>
+            <td>2019</td>
+            <td>68.92%</td>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>Maharashtra State Board</td>
+                <td>2017</td>
+                <td>71.40%</td>
+                </tr>
+        </table>
+           
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Pune Maharashtra</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone:+91 8999687433</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i>Email:rohitgaikwad880652@gmail.com </p>
+    </div>
+    
+    <!-- Image of location/map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27537.666120370995!2d73.86411509006425!3d18.621036528229993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c71537406323%3A0xc3ec493399478f9c!2zTG9rcmFqeWEgQWNhZGVteSA6IOCksuCli-CkleCksOCkvuCknOCljeCkryDgpIXgpJXgpYXgpKHgpK7gpYAg4KS1IOCkheCkreCljeCkr-CkvuCkuOCkv-CkleCkvg!5e0!3m2!1sen!2sin!4v1677438850247!5m2!1sen!2sin" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="Thankyou.html" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
